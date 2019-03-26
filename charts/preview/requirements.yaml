@@ -14,3 +14,7 @@ dependencies:
 - alias: preview
   name: demo272
   repository: file://../demo272
+- alias: hey
+  name: hey
+  repository: http://chartmuseum.jenkins-x.io
+  version: 0.0.2
