@@ -1,4 +1,3 @@
-
 expose:
   Annotations:
     helm.sh/hook: post-install,post-upgrade
@@ -20,3 +19,9 @@ preview:
     repository:
     tag:
     pullPolicy: IfNotPresent
+
+hey:
+  hey: 
+    url: "http://demo272"
+    numberOfRequests: 1000
+    concurrentRequests: 100
